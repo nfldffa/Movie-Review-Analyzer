@@ -8,7 +8,7 @@ Sebuah model Machine Learning untuk menganalisis dan mengklasifikasikan sentimen
 
 Model ini tidak hanya ada di dalam kode, tapi dapat dicoba secara langsung! Berikut adalah tampilan antarmuka demo saat aplikasi dijalankan melalui notebook.
 
-![Demo Aplikasi Movie Review Analyzer]([httpsd://github.com/user-attachments/assets/523c9e6d-07f2-4683-943e-b5cd901d498c](https://github.com/nfldffa/Movie-Review-Analyzer/blob/main/demo-movie.png?raw=true))
+![Demo Aplikasi Movie Review Analyzer](https://github.com/nfldffa/Movie-Review-Analyzer/blob/main/demo-movie.png)
 
 
 
