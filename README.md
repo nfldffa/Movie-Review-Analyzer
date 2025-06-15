@@ -27,7 +27,7 @@ Tujuan proyek ini adalah:
 ## ✨ Kemampuan yang Ditunjukkan
 
 Proyek ini mendemonstrasikan keahlian dalam:
-- **Klasifikasi Teks (NLP):** Menerapkan algoritma untuk memahami dan mengkategorikan teks tidak terstruktur.
+- **Klasifikasi Teks Natural Language Processing (NLP):** Menerapkan algoritma untuk memahami dan mengkategorikan teks tidak terstruktur.
 - **Preprocessing Data Teks:** Membersihkan dan mempersiapkan data teks mentah (HTML tags, stopwords, tanda baca) untuk pemodelan.
 - **Feature Engineering:** Menggunakan teknik TF-IDF untuk mengubah teks menjadi fitur numerik yang dapat dipahami mesin.
 - **Evaluasi Model:** Mengukur kinerja model secara kuantitatif menggunakan metrik seperti Akurasi dan F1-Score.
