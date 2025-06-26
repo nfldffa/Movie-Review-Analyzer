@@ -1,12 +1,12 @@
 # Movie-Review-Analyzer 🎬
 
-Sebuah model Machine Learning untuk menganalisis dan mengklasifikasikan sentimen ulasan film secara otomatis, dilengkapi dengan **demo interaktif** untuk pengujian *real-time*.
+A Machine Learning model to automatically analyze and classify the sentiment of movie reviews, complete with an **interactive** demo for *real-time* testing.
 
 ---
 
-## 🚀 Demo Interaktif
+## 🚀 Interactive Demo
 
-Model ini tidak hanya ada di dalam kode, tapi dapat dicoba secara langsung! Berikut adalah tampilan antarmuka demo saat aplikasi dijalankan melalui notebook.
+This model isn't just code—it’s ready to be tried out! Below is a preview of the demo interface when the application is launched via notebook.
 
 ![Demo Aplikasi Movie Review Analyzer](https://github.com/nfldffa/Movie-Review-Analyzer/blob/main/demo-movie.png)
 
@@ -15,42 +15,42 @@ Model ini tidak hanya ada di dalam kode, tapi dapat dicoba secara langsung! Beri
 
 ---
 
-## 🎯 Tantangan & Tujuan Proyek
+## 🎯 Project Challenge & Objectives
 
-Di era digital, data teks seperti ulasan, komentar, dan tweet melimpah ruah. Tantangannya adalah bagaimana mesin dapat memahami makna subjektif di balik teks tersebut.
+In the digital era, text data like reviews, comments, and tweets are overflowing. The challenge is how machines can understand the subjective meaning behind these texts.
 
-Tujuan proyek ini adalah:
-1.  Membangun model klasifikasi teks yang akurat menggunakan teknik NLP.
-2.  Mendemonstrasikan proses end-to-end proyek Machine Learning, dari pembersihan data hingga deployment model sederhana.
-3.  Menciptakan sebuah alat interaktif yang dapat digunakan untuk menguji performa model secara langsung.
+The objectives of this project are:
+1.  To build an accurate text classification model using NLP techniques.
+2.  To demonstrate the end-to-end process of a Machine Learning project, from data cleaning to simple model deployment.
+3.  To create an interactive tool that allows users to test the model’s performance directly.
+   
+## ✨ Skills Demonstrated
 
-## ✨ Kemampuan yang Ditunjukkan
-
-Proyek ini mendemonstrasikan keahlian dalam:
-- **Klasifikasi Teks Natural Language Processing (NLP):** Menerapkan algoritma untuk memahami dan mengkategorikan teks tidak terstruktur.
-- **Preprocessing Data Teks:** Membersihkan dan mempersiapkan data teks mentah (HTML tags, stopwords, tanda baca) untuk pemodelan.
-- **Feature Engineering:** Menggunakan teknik TF-IDF untuk mengubah teks menjadi fitur numerik yang dapat dipahami mesin.
-- **Evaluasi Model:** Mengukur kinerja model secara kuantitatif menggunakan metrik seperti Akurasi dan F1-Score.
-- **Pembuatan Prototipe Cepat:** Membangun antarmuka pengguna (UI) yang fungsional dengan Gradio untuk memamerkan hasil model.
+This project showcases expertise in:
+- **Natural Language Processing (NLP) Text Classification:** Applying algorithms to understand and categorize unstructured text.
+- **Text Data Preprocessing:** Cleaning and preparing raw text data (HTML tags, stopwords, punctuation) for modeling.
+- **Feature Engineering:** Using TF-IDF to convert text into machine-readable numeric features.
+- **Model Evaluation:** Measuring model performance quantitatively with metrics like Accuracy and F1-Score.
+- **Rapid Prototyping:** Building a functional user interface (UI) using Gradio to showcase the model results.
 
 ## 🛠️ Tech Stack & Library
 
-| Teknologi | Kegunaan |
+| Technology | Purpose |
 | :--- | :--- |
-| **Python** | Bahasa utama |
-| **Pandas** | Manipulasi & pembersihan data |
-| **NLTK** | Preprocessing teks & stopwords |
-| **Scikit-learn** | Feature engineering (TF-IDF) & pemodelan (Logistic Regression) |
-| **Gradio** | Pembuatan demo UI interaktif |
-| **Matplotlib & Seaborn**| Visualisasi data (EDA) |
-| **Google Colab** | Lingkungan development berbasis cloud |
+| **Python** | 	Main programming language |
+| **Pandas** | Data manipulation & cleaning |
+| **NLTK** | Text preprocessing & stopword handling |
+| **Scikit-learn** | Feature engineering (TF-IDF) & modeling (Logistic Regression) |
+| **Gradio** | 	Building the interactive demo UI |
+| **Matplotlib & Seaborn**| Data visualization (EDA) |
+| **Google Colab** | Cloud-based development environment |
 
-## 📈 Hasil & Performa Model
+## 📈 Model Results & Performance
 
-Setelah melalui proses training dan validasi, model ini berhasil mencapai **akurasi sebesar 87.38%** pada data uji. Ini menunjukkan bahwa model memiliki kemampuan yang solid untuk membedakan antara ulasan positif dan negatif.
+After training and validation, the model achieved an accuracy of 87.38% on the test dataset. This indicates a strong ability to distinguish between positive and negative reviews.
 
 <details>
-<summary>Klik untuk melihat Laporan Klasifikasi Detail</summary>
+<summary>Click to view the Detailed Classification Report</summary>
 
 ```
 Laporan Klasifikasi:
